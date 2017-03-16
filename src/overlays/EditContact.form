@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="overlays.EditContact">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="475" height="400"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6ad5c" class="javax.swing.JTextPane" binding="editPane">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="36"/>
+          <foreground color="-16731419"/>
+          <maximumSize width="440" height="50"/>
+          <minimumSize width="440" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="440" height="50"/>
+          <text value="Редактирование контакта"/>
+        </properties>
+      </component>
+      <component id="64296" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <maximumSize width="220" height="5"/>
+          <minimumSize width="220" height="5"/>
+          <preferredSize width="220" height="5"/>
+        </properties>
+      </component>
+      <component id="aa934" class="javax.swing.JTextPane" binding="number">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <maximumSize width="120" height="20"/>
+          <minimumSize width="120" height="20"/>
+          <opaque value="false"/>
+          <preferredSize width="120" height="20"/>
+        </properties>
+      </component>
+      <component id="8ab2d" class="javax.swing.JButton" binding="delete" custom-create="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1357237"/>
+          <horizontalAlignment value="4"/>
+          <margin top="2" left="5" bottom="2" right="2"/>
+          <maximumSize width="170" height="25"/>
+          <minimumSize width="170" height="25"/>
+          <opaque value="false"/>
+          <preferredSize width="170" height="25"/>
+          <text value="удалить пользователя"/>
+        </properties>
+      </component>
+      <component id="87eec" class="javax.swing.JButton" binding="save">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16731419"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <maximumSize width="250" height="40"/>
+          <minimumSize width="250" height="40"/>
+          <preferredSize width="250" height="40"/>
+          <text value="СОХРАНИТЬ"/>
+        </properties>
+      </component>
+      <component id="bc518" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <caretColor color="-1"/>
+          <font size="26"/>
+          <foreground color="-1"/>
+          <maximumSize width="250" height="30"/>
+          <minimumSize width="250" height="30"/>
+          <opaque value="false"/>
+          <preferredSize width="250" height="30"/>
+        </properties>
+      </component>
+      <component id="177f8" class="javax.swing.JButton" binding="back" custom-create="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="35" height="35"/>
+          <minimumSize width="35" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="35" height="35"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <grid id="48ec1" binding="photoPanel" custom-create="true" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <minimumSize width="100" height="100"/>
+          <opaque value="false"/>
+          <preferredSize width="100" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

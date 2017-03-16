@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.Confirmation">
+  <grid id="27dc6" binding="rootPanelSecond" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="458" height="436"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e70e2" class="javax.swing.JTextPane" binding="number">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="20" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="28"/>
+          <foreground color="-1"/>
+          <maximumSize width="220" height="40"/>
+          <minimumSize width="220" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="220" height="40"/>
+        </properties>
+      </component>
+      <component id="84b4b" class="javax.swing.JPasswordField" binding="passField">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <caretColor color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="70" height="25"/>
+          <minimumSize width="70" height="25"/>
+          <opaque value="false"/>
+          <preferredSize width="70" height="25"/>
+        </properties>
+      </component>
+      <component id="a157" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <maximumSize width="70" height="5"/>
+          <minimumSize width="70" height="5"/>
+          <preferredSize width="70" height="5"/>
+        </properties>
+      </component>
+      <component id="507e3" class="javax.swing.JButton" binding="proceed">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16731419"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <label value="ПРОДОЛЖИТЬ"/>
+          <maximumSize width="180" height="40"/>
+          <minimumSize width="180" height="40"/>
+          <preferredSize width="180" height="40"/>
+          <text value="ПРОДОЛЖИТЬ"/>
+        </properties>
+      </component>
+      <grid id="e2a9f" binding="logoPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="130" height="100"/>
+          <minimumSize width="130" height="100"/>
+          <opaque value="false"/>
+          <preferredSize width="130" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="d19d2" class="javax.swing.JTextPane" binding="enter">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <foreground color="-1"/>
+          <maximumSize width="280" height="60"/>
+          <minimumSize width="280" height="60"/>
+          <opaque value="false"/>
+          <preferredSize width="280" height="60"/>
+          <text value="На данный номер телефона было отправлено&#10;SMS-сообщение с кодом подтверждения.&#10;Пожалуйста, введите этот код в поле ниже:"/>
+        </properties>
+      </component>
+      <grid id="6e5ad" binding="lockIcon" custom-create="true" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="26" height="36"/>
+          <minimumSize width="26" height="36"/>
+          <opaque value="false"/>
+          <preferredSize width="26" height="36"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

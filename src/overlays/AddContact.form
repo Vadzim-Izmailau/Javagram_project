@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="overlays.AddContact">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="504" height="445"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="54166" class="javax.swing.JTextPane" binding="addPane">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="36"/>
+          <foreground color="-16731419"/>
+          <maximumSize width="370" height="50"/>
+          <minimumSize width="370" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="370" height="50"/>
+          <text value="Добавление контакта"/>
+        </properties>
+      </component>
+      <component id="7e06c" class="javax.swing.JTextPane" binding="enter">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <maximumSize width="220" height="40"/>
+          <minimumSize width="220" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="220" height="40"/>
+          <text value="Введите код страны и номер&#10;мобильного телефона пользователя"/>
+        </properties>
+      </component>
+      <component id="b3565" class="javax.swing.JFormattedTextField" binding="number">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="5" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <caretColor color="-1"/>
+          <font size="36"/>
+          <foreground color="-1"/>
+          <maximumSize width="220" height="40"/>
+          <minimumSize width="220" height="40"/>
+          <opaque value="false"/>
+          <preferredSize width="220" height="40"/>
+        </properties>
+      </component>
+      <component id="a6ffa" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <maximumSize width="200" height="5"/>
+          <minimumSize width="200" height="5"/>
+          <preferredSize width="200" height="5"/>
+        </properties>
+      </component>
+      <component id="75c00" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <caretColor color="-1"/>
+          <font size="26"/>
+          <foreground color="-1"/>
+          <maximumSize width="180" height="30"/>
+          <minimumSize width="180" height="30"/>
+          <opaque value="false"/>
+          <preferredSize width="180" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fd3d9" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <maximumSize width="200" height="5"/>
+          <minimumSize width="200" height="5"/>
+          <preferredSize width="200" height="5"/>
+        </properties>
+      </component>
+      <component id="18498" class="javax.swing.JTextField" binding="surname">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <caretColor color="-1"/>
+          <font size="26"/>
+          <foreground color="-1"/>
+          <maximumSize width="180" height="30"/>
+          <minimumSize width="180" height="30"/>
+          <opaque value="false"/>
+          <preferredSize width="180" height="30"/>
+        </properties>
+      </component>
+      <component id="83533" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <maximumSize width="200" height="5"/>
+          <minimumSize width="200" height="5"/>
+          <preferredSize width="200" height="5"/>
+        </properties>
+      </component>
+      <component id="8d537" class="javax.swing.JButton" binding="addContact">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16731419"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <maximumSize width="220" height="40"/>
+          <minimumSize width="220" height="40"/>
+          <preferredSize width="220" height="40"/>
+          <text value="ДОБАВИТЬ"/>
+        </properties>
+      </component>
+      <component id="7daa5" class="javax.swing.JButton" binding="back" custom-create="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="35" height="35"/>
+          <minimumSize width="35" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="35" height="35"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c661c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="10" height="30"/>
+          <minimumSize width="10" height="30"/>
+          <preferredSize width="10" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="b8b39" binding="phoneIcon" custom-create="true" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="22" height="36"/>
+          <minimumSize width="22" height="36"/>
+          <opaque value="false"/>
+          <preferredSize width="22" height="36"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
